@@ -1,20 +1,16 @@
-/* Selecciona todos los elementos <p> dentro de los
-elementos <div>*/
-/*div p {
-
-    background-color: green;
-}
-/*Selecciona todos los elementos <p> donde el
-padre es un elemento <div>*/
-div > p{
-    background-color: blueviolet;
-}
-div + p {background-color: yellow;}
-
+/*Todos los descendientes*/
+/* div p {
+    background-color: yellow;
+} */
+/*Todos los elementos hijos*/
+/* div > p {
+    background-color: rgb(245, 25, 205);
+} */
+/*Hermanos adyacentes*/
+/* div + p {
+    background-color: rgb(241, 109, 14);
+} */
+/* Siblings hermanos */
 div ~ p {
-
-    background-color: rgb(255, 0, 0);
-    
-    }
-/*siblings hermanos*¨/
-div 
+    background-color: rgb(171, 82, 209);
+}
