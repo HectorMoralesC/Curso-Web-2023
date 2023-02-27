@@ -1,0 +1,12 @@
+/*Solo el primer párrafo obtiene la propiedad*/
+p:first-child {
+    color: blue;
+    }
+/*Solo para las primeras cçpalabras italics de cada párrafo*/
+    p i:first-child {
+        color: blue;
+        }
+ /*Solo para la palabra puesta en italics del primer párrafo*/
+        p:first-child i {
+            color: blue;
+            }

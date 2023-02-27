@@ -1,0 +1,30 @@
+a:link {color: rgb(0, 255, 0);}
+
+a:visited {color: green;}
+
+a:hover {color: pink;}
+
+a:active {color: yellow;}
+
+a.clase:hover {color: #ff0000;}
+
+div {
+
+    background-color: green;
+    
+    color: white;
+    
+    padding: 25px;
+    
+    text-align: center;}
+    
+    div:hover {background-color: blue;}
+
+    div:hover p {display: block;}
+    p{
+        display: none;
+        background-color: rgb(255, 0, 0);
+    }
+    div :hover p {
+        display: block
+    }
