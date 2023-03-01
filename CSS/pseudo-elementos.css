@@ -1,0 +1,65 @@
+div1 h1::before {
+
+    content: "Prefijo -";
+    
+    background-color: yellow;
+    
+    color: red;
+    
+    font-weight: bold;
+}
+
+div1 h2::before {
+
+    content: "Prefijo -";
+    
+    background-color: rgb(132, 0, 255);
+    
+    color: rgb(0, 255, 21);
+    
+    font-weight: bold;
+}
+
+div2 h3::after {
+
+    content: "- Sufijo"; 
+    
+    background-color: rgb(255, 0, 0);
+    
+    color: rgb(0, 255, 42);
+    
+    font-weight: bold;
+    
+}
+
+p::first-letter {
+
+    font-size: 200%;
+        
+    color: #8A2BE2;
+        
+}
+
+#p1::first-line {
+
+    color: #f10c0cb7;
+    
+    font-variant: small-caps;
+
+}
+
+
+
+
+
+
+
+
+
+.classdiv1::selection {
+
+    color: white;
+    
+    background: blue;
+    
+    }
