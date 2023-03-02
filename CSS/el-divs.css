@@ -1,0 +1,32 @@
+div {
+
+    width: 50px;
+    
+    height: 50px;
+    
+    line-height: 65px;
+    
+    border: 15px solid rgba(85, 17, 243, 0.877);
+    
+    padding: 7px;
+    
+    border-radius: 50px;
+    
+    float: center;
+    
+    font-size: 50px;
+    
+    text-align: center;
+    
+    font-family: helvetica;
+    
+    margin-right: 4px;
+    
+    margin-top: 50px;
+    
+    color: rgb(248, 8, 8);
+    
+    }
+    .color{
+        background-color: blue;
+    }

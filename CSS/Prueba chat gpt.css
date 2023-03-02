@@ -1,0 +1,21 @@
+p:first-letter {
+    font-size: 200%;
+    color: red;
+  }
+  
+  /* Estilo para la primera línea del primer párrafo */
+  #div1 > p:first-of-type::first-line {
+    font-size: 150%;
+    font-weight: bold;
+  }
+  
+  /* Estilo para el listado con puntos */
+  ul {
+    list-style-type: disc;
+  }
+  
+  /* Estilo para el contenido del div1 cuando se selecciona */
+  #div1 *:hover {
+    background-color: blue;
+    color: white;
+  }

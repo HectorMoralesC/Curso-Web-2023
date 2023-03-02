@@ -1,0 +1,37 @@
+h1{
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'Mynerve', sans-serif;
+    font-style: italic;
+    line-height: 70px;
+    padding: 0px 60px 6px 0px;
+    
+}
+
+p{
+    color: darkgoldenrod;
+    font-size: 2em;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: -8px 4px 6px #1162ac;
+    /*line-height: 70px;*/
+    word-spacing: 50px;
+    letter-spacing: 10px;
+}
+
+.negrita{
+    font-weight: 1000;
+}
+.centrado{
+    text-align: center;
+}
+.divfondocolor{
+    background-color: olive;
+}
+/*.padding{
+    padding: 20px 0px 6px 40px;
+}*/
+/*.box_shadow{
+    box-shadow: 0 0 9px red;
+}/*
