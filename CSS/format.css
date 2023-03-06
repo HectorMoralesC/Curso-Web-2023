@@ -1,0 +1,29 @@
+div{
+    text-align: center;
+}
+h1{
+    background-color:chartreuse;
+    font-family: Pacifico;
+
+}
+
+h2{
+    color: orange;
+    text-align: center;
+
+}
+
+p{
+    line-height: 50px;
+    letter-spacing: 3px;
+
+}
+section{
+    background-color: blueviolet;
+}
+.enlacepdf{
+    color: rgb(255, 217, 3);
+}
+.sube{
+    color: chartreuse;
+}
