@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h2>JavaScript Matriz-Arrays</h2>
+
+<p>Los índices de matriz están basados desde el cero,
+lo
+que significa que el primer elemento es [0].</p>
+<br>
+<p id="array-00"></p>
+<br>
+<p id="array-01"></p>
+<br>
+<p id="array-10"></p>
+<br>
+<p id="array-11"></p>
+<br>
+<p id="array-20"></p>
+<br>
+<p id="array-21"></p>
+<br>
+<p id="array.length"></p>
+<p id="lenguajes"></p>
+
+
+<script>
+
+/*var bici = ["BH", "Orbea", "Specialized"];
+
+document.getElementById("array-0").innerHTML = bici[0];
+document.getElementById("array-1").innerHTML = bici[1];
+document.getElementById("array-2").innerHTML = bici[2];*/
+
+var notas = [[7, "Héctor"], [6, "Frank"], [5, "Sam"]];
+
+
+var lenguajes = ["HTML", "CSS", "JS"];
+
+
+
+
+document.getElementById("array-00").innerHTML ="Posición [0][0] = " +notas[0] [0];
+
+document.getElementById("array-01").innerHTML ="Posición [0][1] = " +notas[0] [1];
+
+document.getElementById("array-10").innerHTML ="Posición [1][0] = " +notas[1] [0];
+
+document.getElementById("array-11").innerHTML ="Posición [1][1] = " +notas[1] [1];
+
+document.getElementById("array-20").innerHTML ="Posición [2][0] = " +notas[2] [0];
+
+document.getElementById("array-21").innerHTML ="Posición [2][1] = " +notas[2] [1];
+
+//Para saber la dimension de nuestro array con .length
+
+document.getElementById("array.length").innerHTML ="Dimension array = " +notas.length;
+
+//Recorrer array1
+
+for (let i = 0; i < notas.length; i++)
+{
+    console.log(notas[i]);
+}
+
+
+//Recorrer array2
+
+
+document.getElementById("lenguajes").innerHTML ="Dimension array = " +lenguajes.length;
+
+for (let j = 0; j < lenguajes.length; j++)
+{
+    console.log(lenguajes[j]);
+    if(j ==lenguajes.length-1 )
+    document.write(lenguajes[j] + ".");
+
+    else if (j ==lenguajes.length-2)
+    document.write(lenguajes[j] + " y ");
+
+    else
+    document.write(lenguajes[j] + ", ");
+}
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>
