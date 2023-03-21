@@ -30,11 +30,7 @@ document.getElementById("z").innerHTML ="z = "+ (z);
 
 
 //Ejercicio 6
-var persona = ["Cristina", "García", "39"];
-
-var nombre = persona [0]; 
-var apellido = persona [1]; 
-var edad = persona [2]; 
+var nombre = "Cristina", apellido = "García", edad = 38
 document.getElementById("persona").innerHTML = nombre + " " + apellido + " tiene " + edad + " años";
 
 
@@ -55,15 +51,26 @@ document.getElementById("division").innerHTML = (x/3);
 
 
 //Ejercicio 9
-x = 6;
-y = 9;
+x = "6";
+y = "9";
 document.getElementById("multiplicacion").innerHTML = (x*y);
 
 
 
-//Ejercicio 10
+//Ejercicio 10 
+// HECHO
+
+
 //Ejercicio 11
-//Ejercicio 11
+function saluda() {
+
+    document.getElementById("ejercicio11").innerHTML = "Hola Mundillo!";
+}
+
+
+//Ejercicio 12  
+
+// HECHO
 
 
 
@@ -77,7 +84,7 @@ txt.length;
 
 //Ejercicio 14
 
-
+document.getElementById("roto").innerHTML = "Nos gusta WordPress.";
 
 //Ejercicio 15
 
@@ -97,19 +104,102 @@ random = Math.random(Math.random()*10000);
 document.getElementById("random").innerHTML = "Número random = " + random;
 
 
+//Ejercicio 18
+
+document.getElementById("max").innerHTML = Math.max(0, 150, 30, 20, -8);
 
 
+//Ejercicio 19
+
+document.getElementById("round").innerHTML = Math.round(5.3);
 
 
+//Ejercicio 20
 
-//Ejercicio 27 sin acabar
+document.getElementById("sqrt").innerHTML = "Raíz de 9 = " + Math.sqrt(9);
 
+
+//Ejercicio 21
+
+document.getElementById("operador +=").innerHTML = "x era = "+ x + " y ahora es = " + (x+= (5));
+
+
+//Ejercicio 22
+
+document.getElementById("operador -=").innerHTML = "x era = "+ x + " y ahora es = " + (x-= (7));
+
+
+//Ejercicio 23
+
+document.getElementById("operador *=").innerHTML = "x era = "+ x + " y ahora es = " + (x*= (10));
+
+
+//Ejercicio 24
+
+document.getElementById("operador /=").innerHTML = "x era = "+ x + " y ahora es = " + (x/= (10));
+
+
+//Ejercicio 25
+
+document.getElementById("operador %=").innerHTML = "x era = "+ x + " y ahora es = " + (x%= (10/3));
+
+
+//Ejercicio 26
 
 function myFunction() {
 
-    document.getElementById("ejercicio27").innerHTML = "Hello World!";
+    document.getElementById("ejercicio26").innerHTML = "Hello World1!";
     
     }
+
+
+
+//Ejercicio 27
+
+function myFunc() {
+
+    document.getElementById("ejercicio27").innerHTML = "Hello World2!";
+    
+    }
+
+
+//Ejercicio 28
+
+function producto() {
+    var multi;
+    multi = (5*5);
+
+
+
+    document.getElementById("ejercicio28").innerHTML = multi;
+
+    
+    
+    }
+    
+  producto();   
+
+
+//Ejercicio 29
+
+function mostraNom() {
+    var nombre = "Antonio";
+    document.getElementById("ejercicio29").innerHTML = "Hola " + nombre;
+  }
+  
+  mostraNom();
+
+
+
+//Ejercicio 30
+
+function mifuncion() {
+
+    document.getElementById("ejercicio30").innerHTML = "Hola Mundo!";
+    
+    }
+
+
     
     
 
