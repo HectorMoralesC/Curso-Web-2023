@@ -84,7 +84,7 @@ txt.length;
 
 //Ejercicio 14
 
-document.getElementById("roto").innerHTML = "Nos gusta WordPress.";
+document.getElementById("roto").innerHTML = "Nos gusta \"WordPress\" .";
 
 //Ejercicio 15
 
