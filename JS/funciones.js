@@ -51,17 +51,7 @@ function resta(a, b) {
 }
 
 
-//Una función que convierte Fahrenheit en Celsius
 
-function FahrenheiTaCelsius(f) {
-
-    f = 80;
-
-    return (5/9) * (f-32);
-    
-    }
-    
-    document.getElementById("demo3").innerHTML = FahrenheiTaCelsius (32);
 
 
 // Crear una funcion con una constante y demostrar en consola la suma
@@ -107,6 +97,16 @@ console.log(funcion3(8));
 
 
 
+//Una función que convierte Fahrenheit en Celsius
 
+function FahrenheiTaCelsius(f) {
+
+   
+
+    return (5/9) * (f-32);
+    
+    }
+    
+    document.getElementById("grados").innerHTML = "32 Fahrenheit son "+FahrenheiTaCelsius (32)+ " celsius";
 
 
