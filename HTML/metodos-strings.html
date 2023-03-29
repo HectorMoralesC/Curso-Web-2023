@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    
     <title>Document</title>
 </head>
 <body>
 
-    <script>
-        let texto = "Hola, Buenas, Tardes";
-        
-        let long = texto.length;
-        let part = texto.slice(6, 12);
-        console.log (part + " " + long)
+    <p id ="subs"></p>
 
-        let unparametro = texto.slice(6);
-        console.log (unparametro)
+    <p>replace() reemplaza "ipsum" por "muspi":</p>
 
-        let parametronegativo = texto.slice(-20,-16);
-        console.log(parametronegativo)
+    <button onclick="reemplaza(), reemplazaTodo()">Reemplaza!!!</button>
+
+    <p id="replace"><strong>Lorem</strong> <strong>IPSUM</strong> dolor sit amet consectetur adipisicing elit. Assumenda ex repellendus odit inventore? Cum mollitia commodi debitis quia aperiam eveniet asperiores nostrum, incidunt quo similique, soluta ipsam. Impedit, quibusdam animi? <strong>Lorem</strong> <strong>IPSUM</strong> dolor sit amet consectetur adipisicing elit. Assumenda ex repellendus odit inventore? Cum mollitia commodi debitis quia aperiam eveniet asperiores nostrum, incidunt quo similique, soluta ipsam. Impedit, quibusdam animi? <strong>Lorem</strong> <strong>IPSUM</strong> dolor sit amet consectetur adipisicing elit. Assumenda ex repellendus odit inventore? Cum mollitia commodi debitis quia aperiam eveniet asperiores nostrum, incidunt quo similique, soluta ipsam. Impedit, quibusdam animi? <strong>Lorem</strong> <strong>IPSUM</strong> dolor sit amet consectetur adipisicing elit. Assumenda ex repellendus odit inventore? Cum mollitia commodi debitis quia aperiam eveniet asperiores nostrum, incidunt quo similique, soluta ipsam. Impedit, quibusdam animi?</p>
+<hr>
 
 
+    <p>Convert string to upper case:</p>
+    <button onclick="myFunction()">Try it</button>
+    <p id="upperCase">Hello World!</p>
+    <hr>
 
 
-    </script>
+    <p>Convert string to lower case:</p>
+    <button onclick="myFunction()">Try it</button>
+    <p id="lowerCase">HELLO WORLD!</p>
+<hr>
+
+    <h2>The concat() Method</h2>
+    <p>The concat() method joins two or more strings:</p>
+    <p id="concat"></p>
+<hr>
+    <h2>The trim() Method para quitar espacios</h2>
+    <p id="trim"></p>
+<hr>
     
+    <h2>The trimStart() Method quita espacios del incio del string</h2>
+    <p id="trimStart"></p>
+
+<hr>
+    <h2>The trimEnd() Method quita espacios del final del string</h2>
+    <p id="trimEnd"></p>
+<hr>
+    <h2>The charAt() Method</h2>
+    <p>The charAt() method te devuelve el caracter de la posicion escogida</p>
+    <p id="charAt"></p>
+
+
+
+
+   <script src="../JS/metodos-strings.js"></script> 
 </body>
 </html>
