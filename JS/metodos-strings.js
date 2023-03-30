@@ -77,6 +77,14 @@
         document.getElementById("trimEnd").innerHTML =
         "Length text1 = " + textooo1.length + "<br>Length text2 = " + textooo2.length;
 
+        //padStart()
+        let textoPadeado = "50";
+        textoPadeado = textoPadeado.padStart(8,"x");
+        console.log(textoPadeado);
+        document.getElementById("padStart").innerHTML = textoPadeado;
+
+        //padEnd() equivalente a padStart() pero al final del texto
+
         //Método charAt() devuelve el caracter de la posicion escogida
         var textu = "HELLO WORLD";
         document.getElementById("charAt").innerHTML = textu.charAt(0);
