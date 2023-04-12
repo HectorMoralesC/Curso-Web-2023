@@ -34,44 +34,44 @@ for(let colores1 of colores){
 A continuación, crea otro array vacío e inserta en él todos los elementos del primer array
 mediante un for...of y el método push.*/
 
-const colores2 = ["amarillo", "negro", "azul"];
 
-for(let colores3 of colores2){
-    console.log(colores3)
+/*var colores1 = [];
+for (let i = 0; i <= 2; i++) {
+
+    let color = prompt("Escribe un color", "");
+    colores1[i] = color;
+    if (color != null) {
+      document.getElementById("demo3").innerHTML =
+        "los colores son: " + colores1;
+    };
+
+};*/
+
+
+var nombrecompleto = [];
+for (let i = 0; i <= 0; i++){
+
+    let nombre = prompt("Cómo te llamas?");
+    nombrecompleto[i] = nombre;
+    
+}
+for (let i = 1; i <= 1; i++){
+    
+    let apellido1 = prompt("Cuál es tu primer apellido?");
+    nombrecompleto[i] = apellido1;
 }
 
-//Segundo metodo con push
-
-const colores4 = ["amarillo", "negro", "azul"];
-console.log("Número colores: " +colores4.length)
-let i = 0;
-
-
-const colores5 =["", "", ""];
-
-while(i <= colores4.length){
-    colores5.push(colores4[colores4.length-i])
-   
-    i++;
+for (let i = 2; i <= 2; i++){
+    
+    let apellido2 = prompt("Cuál es tu segundo apellido?");
+    nombrecompleto[i] = apellido2;
 }
 
-console.log("colores con push: " +colores5);
-console.log("Número colores: " +colores5.length)
 
-colores5.reverse()
-console.log("colores con push: " +colores5);
-
-let result1 = colores5.lastIndexOf("azul");
-console.log(result1);
-
-
-
-result1+1;
-while(result<=colores5.length){
-delete colores5[result1];
-result++;
-}
-console.log("colores con push final: " +colores5);
+if (nombre != null) {
+    document.getElementById("nombre").innerHTML =
+      "El nombre del cliente es: " + nombrecompleto;
+  };
 
 
 
